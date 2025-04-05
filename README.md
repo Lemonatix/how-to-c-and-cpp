@@ -31,7 +31,7 @@ Whether you're a beginner or looking to refresh your skills, this repository aim
 2. Navigate through the folders to find topics of interest.
 3. Feel free to contribute or suggest improvements!
 
-## How to run files
+## How to run files (for Linux/MacOs)
 
 1. Compile file with
 ```c
@@ -40,12 +40,19 @@ gcc file.c -o file
 or for c++
 
 ```cpp
-g++ file.cpp -o -file
+g++ file.cpp -o file
 ```
 
 2. Run file by using
 ```cpp
 ./file
+```
+
+If you are on Windows, just add .exe for compile
+```c++
+g++ file.cpp -o file.exe
+/* run the file with */
+file.exe
 ```
 
 ## Contributing
