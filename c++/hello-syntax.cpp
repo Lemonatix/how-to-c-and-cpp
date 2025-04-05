@@ -1,0 +1,1 @@
+/* this file will explain the syntax used in hello.cpp */
