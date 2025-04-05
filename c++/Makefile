@@ -8,9 +8,6 @@ all: $(TARGETS)
 	@echo "Compiling $<..."
 	g++ -Wall -g $< -o $@
 
-clean:
-	rm -f $(TARGETS)
-
 run: 
 	$(MAKE) $(FILE)
 	@echo "Running $(FILE)..."
