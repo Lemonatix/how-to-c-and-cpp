@@ -26,7 +26,7 @@ Whether you're a beginner or looking to refresh your skills, this repository aim
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/how-to-c-and-cpp.git
+    git clone https://github.com/Lemonatix/how-to-c-and-cpp.git
     ```
 2. Navigate through the folders to find topics of interest.
 3. Feel free to contribute or suggest improvements!
