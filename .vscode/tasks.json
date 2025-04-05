@@ -2,17 +2,26 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build hello",
+            "label": "Build and Run Active File",
             "type": "shell",
-            "command": "gcc",
-            "args": [
-                "hello.c",
-                "-o",
-                "hello"
-            ],
+            "command": "if [ \"${fileExtname}\" = \".cpp\" ]; then g++ \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\"; else gcc \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\"; fi && \"${fileDirname}/${fileBasenameNoExtension}\"",
+            "windows": {
+                "command": "powershell",
+                "args": [
+                    "-NoProfile",
+                    "-Command",
+                    "if ('${fileExtname}' -eq '.cpp') { g++ '${file}' -o '${fileDirname}\\${fileBasenameNoExtension}' } else { gcc '${file}' -o '${fileDirname}\\${fileBasenameNoExtension}' }; & '${fileDirname}\\${fileBasenameNoExtension}'"
+                ]
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
             },
             "problemMatcher": "$gcc"
         }
