@@ -26,7 +26,7 @@ Welcome to the **How to C and C++** repository. This project is a personal learn
 3. Use the following command:
 
    ```bash
-   git clone https://github.com/Lemonatix/how-to-python.git
+   git clone https://github.com/Lemonatix/how-to-c-and-cpp.git
    ```
    or with SSH:
    ```bash
