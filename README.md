@@ -35,7 +35,7 @@ Welcome to the **How to C and C++** repository. This project is a personal learn
    
 You can also copy these shell commands on the <> Code button.
 
-## How to run files
+## How to compile and run files
 ### Standard way for Linux/MacOS
 
 1. Compile file with
@@ -60,7 +60,7 @@ g++ file.cpp -o file.exe
 file.exe
 ```
 
-## Compile with make
+### Compile with make
 [![C/C++ CI](https://github.com/Lemonatix/how-to-c-and-cpp/actions/workflows/c-cpp.yml/badge.svg?branch=main)](https://github.com/Lemonatix/how-to-c-and-cpp/actions/workflows/c-cpp.yml)
 
 If you are familiar with make you can use 
