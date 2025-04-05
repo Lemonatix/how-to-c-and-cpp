@@ -62,6 +62,7 @@ file.exe
 
 ## Compile with make
 [![C/C++ CI](https://github.com/Lemonatix/how-to-c-and-cpp/actions/workflows/c-cpp.yml/badge.svg?branch=main)](https://github.com/Lemonatix/how-to-c-and-cpp/actions/workflows/c-cpp.yml)
+
 If you are familiar with make you can use 
 ```c
 make -C c
