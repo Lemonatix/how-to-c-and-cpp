@@ -35,7 +35,8 @@ Welcome to the **How to C and C++** repository. This project is a personal learn
    
 You can also copy these shell commands on the <> Code button.
 
-## How to run files (for Linux/MacOs)
+## How to run files
+### for Linux/MacOS
 
 1. Compile file with
 ```c
@@ -51,8 +52,8 @@ g++ file.cpp -o file
 ```cpp
 ./file
 ```
-
-If you are on Windows, just add .exe for compile
+### Windows
+just add .exe for compile
 ```c++
 g++ file.cpp -o file.exe
 /* run the file with */
