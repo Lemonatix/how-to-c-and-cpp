@@ -14,12 +14,26 @@ Welcome to the **How to C and C++** repository. This project is a personal learn
 
 ## Cloning the repository
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Lemonatix/how-to-c-and-cpp.git
-    ```
-2. Navigate through the folders to find topics of interest.
-3. Feel free to contribute or suggest improvements!
+### Linux/Windows/macOS
+
+1. Open a terminal.
+2. Navigate to the directory where you want to clone the project. Either in your explorer/file manager, e.g for linux:
+
+   ```bash
+   cd /home/user/my_c_cpp_project
+   ```
+
+3. Use the following command:
+
+   ```bash
+   git clone https://github.com/Lemonatix/how-to-python.git
+   ```
+   or with SSH:
+   ```bash
+   git clone git@github.com:Lemonatix/how-to-python.git
+   ```
+   
+You can also copy these shell commands on the <> Code button.
 
 ## How to run files (for Linux/MacOs)
 
