@@ -30,7 +30,7 @@ Welcome to the **How to C and C++** repository. This project is a personal learn
    ```
    or with SSH:
    ```bash
-   git clone git@github.com:Lemonatix/how-to-python.git
+   git clone git@github.com:Lemonatix/how-to-c-and-cpp.git
    ```
    
 You can also copy these shell commands on the <> Code button.
