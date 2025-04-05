@@ -11,5 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run Makefile tasks from .github/run.mk
-        run: make -f .github/run.mk
+      - name: Build C Programs
+        run: make -C c
+      - name: Build C++ Programs
+        run: make -C c++
