@@ -1,6 +1,6 @@
 # How to C and C++
 
-Welcome to the **How to C and C++** repository. This project is a personal learning journey to explore and master the fundamentals of C and C++ programming. It is also designed to serve as a resource for others (you reading this) who want to learn these powerful programming languages.
+Welcome to the **How to C and C++** repository. This project is a personal learning journey to explore and master the fundamentals of C and C++. It is also designed to serve as a resource for others (you reading this) who want to learn these powerful programming languages.
 
 ## Topics Covered
 
