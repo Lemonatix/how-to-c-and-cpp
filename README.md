@@ -12,7 +12,7 @@ Welcome to the **How to C and C++** repository. This project is a personal learn
 - Standard Template Library (STL)
 - File I/O and more!
 
-## How to Use
+## Cloning the repository
 
 1. Clone the repository:
     ```bash
