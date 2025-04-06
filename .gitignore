@@ -1,0 +1,10 @@
+# C/C++ compiled files (macOS and Linux)
+c/*.o
+c/*~
+c/*      # ignore all C binaries
+!c/*.c   # except the source
+
+c++/*.o
+c++/*~
+c++/*
+!c++/*.cpp
