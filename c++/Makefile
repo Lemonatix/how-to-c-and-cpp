@@ -14,7 +14,8 @@ run: all
 	@for target in $(TARGETS); do \
 		echo "Running $$target..."; \
 		./$$target; \
-		echo "Finished running $$target."; \
+		echo ""; \
+		echo ""; \
 	done
 
 clean:
