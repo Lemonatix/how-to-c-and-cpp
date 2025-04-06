@@ -1,17 +1,30 @@
-# c/Makefile
+# Makefile for C only
+
 CFILES := $(wildcard *.c)
 TARGETS := $(CFILES:.c=)
+
+UNAME := $(shell uname)
+CC := gcc
+
+ifeq ($(UNAME), Darwin)
+    CC := clang
+endif
+
+.PHONY: all run clean
 
 all: $(TARGETS)
 
 %: %.c
-	@echo "Compiling $<..."
-	gcc -Wall -g $< -o $@
+	@echo "Compiling $< with $(CC)..."
+	$(CC) -Wall -g $< -o $@
+	@echo ""
 
-run:
-	$(MAKE) $(FILE)
-	@echo "Running $(FILE)..."
-	./$(FILE)
+run: all
+	@for target in $(TARGETS); do \
+		echo "Running $$target..."; \
+		./$$target; \
+		echo ""; \
+	done
 
 clean:
 	rm -f $(TARGETS)
