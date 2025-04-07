@@ -42,7 +42,7 @@ int main1() {
 
 int main2() {
     int myAge = 21;
-    cout << "I am   " << myAge << " years old.\n";
+    cout << "I am " << myAge << " years old.\n";
 
     int x = 7;
     int y = 3;
