@@ -24,6 +24,7 @@ int main1 () {
   cout << myLetter << "\n";
   cout << myText << "\n";
   cout << myBoolean;
+  return 0;
 }
 
 int main2 () {
@@ -33,4 +34,5 @@ int main2 () {
     int y = 3;
     int sum = x + y;
     cout << sum;
+    return 0;
 }
