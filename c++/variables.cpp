@@ -1,7 +1,11 @@
 // syntax: type variableName = value;
 
 #include <iostream>
+#include <string>
 using namespace std;
+
+int main1();
+int main2();
 
 int main() {
   int myNum;
