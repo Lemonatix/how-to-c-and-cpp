@@ -7,8 +7,6 @@ int main() { // is a function, code inside {} is executed
     std::cout << "Hello World!\n"; // cout "see-out" is used to print to the console, << is the insertion operator to output/print the text
     // care: cout and Cout are different. every statement ends with ; 
     cout << "Hi there!\n";
-    cout << "Have a great day!\n"; 
+    cout << "Have a great day!\n"; // \n forces a new line
     return 0; // end main function
 }
-
-// \n forces a new line
