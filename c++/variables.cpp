@@ -1,5 +1,4 @@
 // syntax: type variableName = value;
-
 #include <iostream>
 #include <string>
 using namespace std;
