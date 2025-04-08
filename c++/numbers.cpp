@@ -8,5 +8,3 @@ int main() {
     cout << "\"These are calculations.\" \t This creates space. \\"; // \t is tab and \\ is backslash "\ is double quote
     return 0;
 }
-
-
