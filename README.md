@@ -33,8 +33,6 @@ Welcome to the **How to C and C++** repository. This project is a personal learn
    git clone git@github.com:Lemonatix/how-to-c-and-cpp.git
    ```
    
-You can also copy these shell commands on the <> Code button.
-
 ## How to compile and run files
 ### Standard way for Linux/MacOS
 
