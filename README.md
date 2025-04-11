@@ -86,7 +86,7 @@ it is advised to use
 ./file
 ```
 
-because there will be a lot of files when the course is finished. 
+to run a file, because there will be a lot of files when the course is finished. 
 
 ## Contributing
 
