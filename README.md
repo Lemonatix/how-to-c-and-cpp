@@ -65,7 +65,7 @@ If you are familiar with make you can use
 ```bash
 make run
 ```
-to compile all files and run the files
+to compile all files and run the files.
 
 
 
