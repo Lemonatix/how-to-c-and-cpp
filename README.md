@@ -67,7 +67,25 @@ make run
 ```
 to compile all files and run the files.
 
+If you use the following command
+```bash
+cd /home/user/my_c_cpp_project/c++
+```
 
+you can run the files of a specific folder.
+Though for single files, after using 
+
+```bash
+make
+```
+
+it is advised to use
+
+```bash
+./file
+```
+
+because there will be a lot of files when the course is finished. 
 
 ## Contributing
 
