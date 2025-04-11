@@ -63,14 +63,11 @@ file.exe
 
 If you are familiar with make you can use 
 ```bash
-cd /home/user/my_c_cpp_project/c++
+make run
 ```
-and then
-```c++
-make
-```
+to compile all files and run the files
 
-to compile the files.
+
 
 ## Contributing
 
