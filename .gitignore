@@ -1,4 +1,4 @@
-# Ignore compiled binaries in c/ and c++/
+# Ignores compiled binaries in c/ and c++/
 c/*
 !c/*.c
 
